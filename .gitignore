@@ -1,0 +1,24 @@
+# Frontend
+/frontend/node_modules
+/frontend/build
+/frontend/dist
+
+# Backend (Laravel)
+/backend/node_modules
+/backend/vendor
+/backend/.env
+/backend/.env.*          # Ignore other env variants like .env.testing
+/backend/storage/*.key   # Laravel encryption keys
+/backend/storage/*.log   # Log files
+/backend/storage/app/public
+/backend/public/storage
+
+# System/IDE
+.DS_Store
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
