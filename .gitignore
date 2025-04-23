@@ -3,15 +3,18 @@
 /frontend/build
 /frontend/dist
 
-# Backend (Laravel)
-/backend/node_modules
-/backend/vendor
-/backend/.env
-/backend/.env.*          # Ignore other env variants like .env.testing
-/backend/storage/*.key   # Laravel encryption keys
-/backend/storage/*.log   # Log files
-/backend/storage/app/public
-/backend/public/storage
+# API
+/api/node_modules
+/api/vendor
+/api/.env
+/api/.env.*          # Ignore other env variants like .env.testing
+/api/storage/*.key   # Laravel encryption keys
+/api/storage/*.log   # Log files
+/api/storage/app/public
+/api/public/storage
+
+# Websocket Server
+/websocket_server/node_modules
 
 # System/IDE
 .DS_Store
