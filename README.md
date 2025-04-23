@@ -27,7 +27,7 @@
 
 ### Contraintes techniques
 - **Technologies imposées :**
-  - **Backend :** Laravel avec Laravel Broadcasting (pour la synchronisation en temps réel)
+  - **Backend :** Laravel avec Laravel Reverb (pour la synchronisation en temps réel)
   - **Frontend :** React avec Monaco Editor
 - **Base de données prévue :** MySQL
 - **Conteneurisation :** Docker
