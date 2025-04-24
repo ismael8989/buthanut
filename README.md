@@ -27,10 +27,9 @@
 
 ### Contraintes techniques
 - **Technologies imposées :**
-  - **Backend :** Laravel avec Laravel Reverb (pour la synchronisation en temps réel)
-  - **Frontend :** React avec Monaco Editor
-- **Base de données prévue :** MySQL
-- **Conteneurisation :** Docker
+  - **Backend :** Nodejs avec Express et SocketIO
+  - **Frontend :** React, Monaco Editor et SocketIO client
+- **Base de données prévue :** MongoDB
 
 ---
 

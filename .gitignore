@@ -1,17 +1,5 @@
 # Frontend
 /frontend/node_modules
-/frontend/build
-/frontend/dist
-
-# API
-/api/node_modules
-/api/vendor
-/api/.env
-/api/.env.*          # Ignore other env variants like .env.testing
-/api/storage/*.key   # Laravel encryption keys
-/api/storage/*.log   # Log files
-/api/storage/app/public
-/api/public/storage
 
 # Websocket Server
 /websocket_server/node_modules
@@ -25,3 +13,5 @@
 *.tmp
 .vscode/
 .idea/
+
+todolist.md
