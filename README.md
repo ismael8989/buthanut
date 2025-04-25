@@ -39,5 +39,5 @@ Au Maroc, il est courant que les propriétaires de petites boutiques vendent des
 
 | Type        | Description                                            | Permissions                                                                 |
 |-------------|--------------------------------------------------------|------------------------------------------------------------------------------|
-| **Buthanout** | Propriétaire de la boutique                          | Peut créer/modifier/supprimer des clients et leurs transactions             |
+| **Buthanut** | Propriétaire de la boutique                          | Peut créer/modifier/supprimer des clients et leurs transactions             |
 | **Client**   | Personne ayant un crédit auprès d’un buthanout        | Peut consulter ses dettes et son historique, mais ne peut rien modifier     |
