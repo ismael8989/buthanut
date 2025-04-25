@@ -1,40 +1,43 @@
-# Realtime Code Editor
+# Buthanut – Gestion de crédit pour petits commerces
 
-## Cahier de charges
+## Cahier des charges
 
 ### Présentation du projet
-**Nom du projet :** RealTime Code Editor  
-**Brève description :** Une application web permettant à plusieurs utilisateurs de coder simultanément dans un même éditeur en ligne sans inscription.  
-**Objectif principal de l’application :** Permettre aux utilisateurs de créer des sessions de codage collaboratif en temps réel avec exécution de code, sans avoir à créer de compte.
+**Nom du projet :** Buthanut  
+**Brève description :** Une application web permettant aux propriétaires de petits commerces (buthanut) de suivre les crédits accordés à leurs clients, de manière simple, digitale et sécurisée. Les clients peuvent aussi consulter leurs dettes sans pouvoir les modifier.  
+**Objectif principal de l’application :** Digitaliser le système traditionnel des carnets physiques utilisés par les épiciers pour suivre les dettes de leurs clients.
+
+### Contexte
+Au Maroc, il est courant que les propriétaires de petites boutiques vendent des produits à crédit et notent les montants dus dans des carnets papier. Chaque client a souvent son propre petit carnet. En fin de mois, le commerçant calcule le total et le client paie. Ce système peut mener à des pertes d’informations, des erreurs de calcul ou des désaccords.
 
 ### Problèmes à résoudre
-- Les enseignants de développement en ligne veulent aider leurs élèves en temps réel sans que chacun ait à partager son écran.
-- Les candidats et recruteurs souhaitent un espace de codage interactif pour les entretiens techniques.
-- Les développeurs veulent pouvoir expérimenter ensemble en temps réel, sans configurations compliquées.
+- Risque de perte ou d’endommagement des carnets physiques
+- Difficulté à faire des calculs mensuels rapidement
+- Manque de transparence pour les clients
+- Aucun historique exploitable à long terme
 
 ### Utilisateurs cibles
-- **Enseignants :** souhaitent montrer, corriger et guider les élèves sur du code en temps réel.
-- **Étudiants / apprenants :** veulent apprendre de manière interactive et montrer leur raisonnement facilement.
-- **Recruteurs techniques :** veulent évaluer les candidats avec des exercices de code collaboratifs.
-- **Développeurs :** désirent coder ensemble rapidement pour faire des tests ou des démonstrations.
+- **buthanut (propriétaires de boutique) :** veulent gérer leurs crédits efficacement, sans perdre de temps ni d’information.
+- **Clients :** souhaitent consulter à tout moment le montant total de leurs dettes, sans avoir à se déplacer ou demander au commerçant.
 
 ### Fonctionnalités attendues
-- Créer une session de codage avec choix de l’environnement (Node.js, Python, etc.)
-- Accéder à une session via un lien unique
-- Éditer le code en temps réel avec d'autres personnes
-- Exécuter le code dans l’environnement choisi
-- Voir le résultat de l’exécution
+- Création de comptes pour chaque buthanut et client
+- Interface simple pour ajouter/modifier/supprimer des transactions pour chaque client
+- Calcul automatique du total dû par client
+- Historique des transactions
+- Accès client en lecture seule
+- Sécurisation des données
 
 ### Contraintes techniques
-- **Technologies imposées :**
-  - **Backend :** Nodejs avec Express et SocketIO
-  - **Frontend :** React, Monaco Editor et SocketIO client
-- **Base de données prévue :** MongoDB
-
+- **Backend :** Laravel
+- **Frontend :** React
+- **Base de données :** MySQL
+- **Containerisation :** Docker
 ---
 
 ## Tableau des utilisateurs et rôles
-| Type   | Description                                         | Permissions                                                                                      |
-|--------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| guest0 | L'utilisateur qui a créé la session/room           | Peut exclure d’autres guests de la session, et aussi définir les permissions des autres invités (lecture seule, écriture). |
-| guest  | L’utilisateur qui a été invité à la session/room    | Ses permissions sont définies par guest0                                                         |
+
+| Type        | Description                                            | Permissions                                                                 |
+|-------------|--------------------------------------------------------|------------------------------------------------------------------------------|
+| **Buthanout** | Propriétaire de la boutique                          | Peut créer/modifier/supprimer des clients et leurs transactions             |
+| **Client**   | Personne ayant un crédit auprès d’un buthanout        | Peut consulter ses dettes et son historique, mais ne peut rien modifier     |
