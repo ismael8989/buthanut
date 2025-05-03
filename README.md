@@ -1,7 +1,7 @@
 # Butḥanut – Gestion de crédit pour petits commerces
 
 <p align="center">
-  <img src="./readme/logo-2.png" width="75%">
+  <img src="./readme/logo-2.png" width="50%">
 </p>
 
 ## Contexte
