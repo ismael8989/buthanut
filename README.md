@@ -27,8 +27,13 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 - Sécurisation des données
 
 ## Contraintes techniques
-<div style="display: flex; justify-content: center; align-item: center; padding: 1rem; gap: 1rem;">
-<img src='./readme/laravel.png' height="`80px"> <img src='./readme/react.png' height="80px"> <img src='./readme/mysql.png' height="80px"> <img src='./readme/Docker.png' height="80px"> <img src='./readme/aws.png' height="80px">
+
+<div style="display:flex; justify-content: center; padding: 1rem; gap: 1rem;">
+    <img src='./readme/laravel.png' style="display:block" height="`80px">
+    <img src='./readme/react.png' style="display:block" height="80px">
+    <img src='./readme/mysql.png' style="display:block" height="80px">
+    <img src='./readme/Docker.png' style="display:block" height="80px">
+    <img src='./readme/aws.png' style="display:block" height="80px">
 </div>
 
 ---
