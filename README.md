@@ -15,7 +15,7 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 - Manque de transparence pour les clients
 - Aucun historique exploitable à long terme
 
-## Utilisateurs cibles
+## Utilisateurs ciblés
 - **Id Butḥuna (propriétaires de boutique) :** veulent gérer leurs crédits efficacement, sans perdre de temps ni d’information.
 - **Clients :** souhaitent consulter à tout moment le montant total de leurs dettes, sans avoir à se déplacer ou demander au commerçant.
 
@@ -27,7 +27,9 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 - Sécurisation des données
 
 ## Contraintes techniques
-<img src='./readme/laravel.png' height="100px"> <img src='./readme/react.png' height="100px"> <img src='./readme/mysql.png' height="100px"> <img src='./readme/Docker.png' height="100px"> <img src='./readme/aws.png' height="100px">
+<div style="display: flex; justify-content: center; align-item: center; padding: 1rem; gap: 1rem;">
+<img src='./readme/laravel.png' height="`80px"> <img src='./readme/react.png' height="80px"> <img src='./readme/mysql.png' height="80px"> <img src='./readme/Docker.png' height="80px"> <img src='./readme/aws.png' height="80px">
+</div>
 
 ---
 
