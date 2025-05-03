@@ -44,3 +44,9 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 |-------------|--------------------------------------------------------|------------------------------------------------------------------------------|
 | **Buthanut** | Propriétaire de la boutique                          | Peut Ajouter/Supprimer des clients et Manager leurs transactions             |
 | **Client**   | Personne ayant un crédit auprès d’un buthanout        | Peut consulter ses dettes et son historique, mais ne peut rien modifier     |
+| **Admin**   | -        | Gérer les comptes et consulter des statistiques     |
+
+---
+
+## DB Design
+<img src="./readme/db_design.png" width="100%">
