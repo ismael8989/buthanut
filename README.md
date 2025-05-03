@@ -33,7 +33,7 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 ## Contraintes techniques
 
 <p align="center">
-  <img src="./readme/technologies.jpg" width="100%">
+  <img src="./readme/techno.jpg" width="100%">
 </p>
 
 ---
@@ -49,4 +49,4 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 ---
 
 ## DB Design
-<img src="./readme/db_design.jpg" width="100%">
+<img src="./readme/db.jpg" width="100%">
