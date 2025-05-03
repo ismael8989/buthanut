@@ -33,11 +33,7 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 ## Contraintes techniques
 
 <p align="center">
-  <img src="./readme/laravel.png" height="80px">
-  <img src="./readme/react.png" height="80px">
-  <img src="./readme/mysql.png" height="80px">
-  <img src="./readme/Docker.png" height="80px">
-  <img src="./readme/aws.png" height="80px">
+  <img src="./readme/technologies.jpg" width="100%">
 </p>
 
 ---
@@ -53,4 +49,4 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 ---
 
 ## DB Design
-<img src="./readme/db_design.png" width="100%">
+<img src="./readme/db_design.jpg" width="100%">
