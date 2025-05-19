@@ -45,3 +45,6 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 
 ## DB Design
 <img src="./readme/db.png" width="100%">
+
+## Use Case Diagram
+<img src="./readme/usecase.jpg" width="100%">
