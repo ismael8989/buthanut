@@ -1,9 +1,5 @@
 # Butḥanut – Gestion de crédit pour petits commerces
 
-<p align="center">
-  <img src="./readme/logo-2.png" width="50%">
-</p>
-
 ## Contexte
 Au Maroc, il est courant que les propriétaires de petites boutiques vendent des produits à crédit et notent les montants dus dans des carnets papier. Chaque client a souvent son propre petit carnet. En fin de mois, le commerçant calcule le total et le client paie. Ce système peut mener à des pertes d’informations, des erreurs de calcul ou des désaccords.
 
@@ -44,9 +40,8 @@ Digitaliser le système traditionnel des carnets physiques utilisés par les ép
 |-------------|--------------------------------------------------------|------------------------------------------------------------------------------|
 | **Buthanut** | Propriétaire de la boutique                          | Peut Ajouter/Supprimer des clients et Manager leurs transactions             |
 | **Client**   | Personne ayant un crédit auprès d’un buthanout        | Peut consulter ses dettes et son historique, mais ne peut rien modifier     |
-| **Admin**   | -        | Gérer les comptes et consulter des statistiques     |
 
 ---
 
 ## DB Design
-<img src="./readme/db.jpg" width="100%">
+<img src="./readme/db.png" width="100%">

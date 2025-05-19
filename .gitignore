@@ -1,0 +1,36 @@
+# Root-level ignores (if any shared node_modules or environment files exist)
+node_modules/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+
+# Ignore frontend (Vite + React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+frontend/.vite
+
+# Ignore backend (Laravel 12)
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/storage/*.key
+backend/storage/logs/
+backend/bootstrap/cache/
+backend/.DS_Store
+backend/public/storage
+backend/.phpunit.result.cache
+
+# Ignore messaging_simulator (Node.js + Express)
+messaging_simulator/node_modules/
+messaging_simulator/.env
+messaging_simulator/.DS_Store
+messaging_simulator/logs/
+messaging_simulator/debug.log
+messaging_simulator/npm-debug.log*
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
